@@ -87,7 +87,7 @@ abstract class AbstractHttpMessageProducer implements MessageProducer
      */
     protected function getPayloadFromResponse(ResponseInterface $response)
     {
-        $payload = json_decode($response->getBody(), true);
+        $payload = json_decode($response->getBody()->getContents(), true);
 
         switch (json_last_error()) {
             case JSON_ERROR_DEPTH:
