@@ -1,5 +1,5 @@
 {
-    "name": "prooph/psb-http-producer",
+    "name": "melodi-c/psb-http-producer",
     "description": "Http Message Producer for Prooph Service Bus using guzzle",
     "homepage": "http://getprooph.org/",
     "license": "BSD-3-Clause",
